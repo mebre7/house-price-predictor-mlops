@@ -1,0 +1,37 @@
+# Core Data Science & Numerical Computing
+pandas
+numpy
+scipy
+
+# Machine Learning Models & Tuning
+scikit-learn
+xgboost
+lightgbm
+catboost
+optuna
+joblib
+
+# MLOps Orchestration, Tracking & Monitoring
+zenml
+mlflow
+evidently
+
+# Database & Storage (PostgreSQL Integration)
+psycopg2-binary
+sqlalchemy
+
+# API & Serving Engine
+fastapi
+uvicorn[standard]
+pydantic
+
+# Utilities, Config & Development
+python-dotenv
+pyyaml
+ipykernel
+notebook
+
+# Testing & Quality Assurance
+pytest
+flake8
+black
