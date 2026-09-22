@@ -7,6 +7,7 @@ scipy
 scikit-learn
 xgboost
 lightgbm
+imblearn
 catboost
 optuna
 joblib
@@ -22,12 +23,13 @@ sqlalchemy
 
 # API & Serving Engine
 fastapi
-uvicorn[standard]
+uvicorn
 pydantic
+jinja2
 
 # Utilities, Config & Development
 python-dotenv
-pyyaml
+PyYAML
 ipykernel
 notebook
 
@@ -35,3 +37,15 @@ notebook
 pytest
 flake8
 black
+
+#
+from_root
+dill
+mypy-boto3-s3
+botocore
+boto3
+neuro_mf
+python-multipart
+
+# editable installs
+-e .

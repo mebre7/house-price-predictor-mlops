@@ -26,3 +26,10 @@ mlruns/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# python build 
+dist/
+build/
+*.egg-info/
+*.tar.gz/
+*.whl/

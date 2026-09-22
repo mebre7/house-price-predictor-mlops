@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "house_price_predictor"
+version = "0.0.1"
+description = "Production-ready ML pipeline for house price predition"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+    "pydantic>=2.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["house_price_predictor*"]
