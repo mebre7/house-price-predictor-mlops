@@ -2,6 +2,9 @@
 pandas
 numpy
 scipy
+plotly
+matplotlib
+seaborn
 
 # Machine Learning Models & Tuning
 scikit-learn
